@@ -291,3 +291,17 @@ defaults:
       comments: # true
       share: true
       related: true
+
+menu:
+  main:
+    - title: "Home"
+      url: "/"
+    - title: "Posts"
+      url: "/posts/"
+      # 아래의 설정을 추가하면 Posts 메뉴 아래에 최근 게시물 목록이 나타납니다.
+      # 지정된 숫자만큼 최근 게시물을 보여줍니다.
+      children:
+        - title: "Recent posts"
+          url: "/posts/recent/"
+          # 최근 게시물을 몇 개까지 보여줄지 설정합니다.
+          max_count: 5
