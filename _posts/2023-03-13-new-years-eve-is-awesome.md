@@ -16,7 +16,9 @@ LiveData를 사용할 때, 비활성화된 화면에서 발생한 이벤트가 �
 <br>
 
 > ### Event Wrapper
+
 ```java
+
 public class Event<T> {
 
     private final T content;
@@ -40,6 +42,7 @@ public class Event<T> {
         return content;
     }
 }
+
 ```
 <br>
 
@@ -48,7 +51,9 @@ public class Event<T> {
 <br>
 
 > ###   Event Observer 코드
+
 ```java
+
 public class EventObserver<T> implements Observer<Event<? extends T>> {
 
     public interface EventUnhandledContent<T> {
@@ -71,4 +76,5 @@ public class EventObserver<T> implements Observer<Event<? extends T>> {
         }
     }
 }
+
 ```
