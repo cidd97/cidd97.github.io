@@ -11,7 +11,6 @@ LiveData를 사용할 때, 비활성화된 화면에서 발생한 이벤트가 �
    
 ### 아래는 Event Wrapper 클래스와 이를 사용하는 Observer 클래스의 코드 예시입니다.
 > ### Event Wrapper
-
 ```java
 
 public class Event<T> {
@@ -44,7 +43,7 @@ public class Event<T> {
 
 
 <br>
->### Event Observer 코드
+> ### Event Observer 코드
 
 ```java
 
