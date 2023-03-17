@@ -10,7 +10,7 @@ LiveData는 데이터의 변경을 구독하다가, 구독 중인 화면이 비�
 
 ##Event Wrapper 코드##
 
-​```java
+```java
 
 public class Event<T> {
 
@@ -36,11 +36,11 @@ public class Event<T> {
     }
 }
 
-​```
+```
 
 ##Event Observer 코드
 
-​```java
+```java
 
 public class EventObserver<T> implements Observer<Event<? extends T>> {
 
@@ -65,4 +65,4 @@ public class EventObserver<T> implements Observer<Event<? extends T>> {
     }
 }
 
-​```
+```
