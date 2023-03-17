@@ -10,6 +10,7 @@ LiveData를 사용할 때, 비활성화된 화면에서 발생한 이벤트가 �
 이를 해결하기 위한 방법 중 하나가 Event Wrapper 클래스입니다. Event Wrapper 클래스를 사용하면 이전에 발생한 이벤트를 처리하지 않도록 하여 중복 처리 문제를 간단하게 해결할 수 있습니다.
 
 <br>
+<br>
 
 > ### Event Wrapper
 
@@ -41,6 +42,7 @@ public class Event<T> {
 
 ```
 
+<br>
 <br>
 
 > ###   Event Observer 코드
