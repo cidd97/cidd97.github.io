@@ -39,10 +39,11 @@ public class Event<T> {
 }
 
 ```
- 
- 
- 
- 
+<br>
+
+
+
+<br>
 >### Event Observer 코드
 
 ```java
