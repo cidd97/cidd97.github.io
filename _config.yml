@@ -302,6 +302,6 @@ menu:
       # 지정된 숫자만큼 최근 게시물을 보여줍니다.
       children:
         - title: "Recent posts"
-          url: "/posts/recent/"
+          url: "/posts/android/"
           # 최근 게시물을 몇 개까지 보여줄지 설정합니다.
           max_count: 5
