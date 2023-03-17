@@ -11,6 +11,7 @@ LiveData는 데이터의 변경을 구독하다가, 구독 중인 화면이 비�
 ##Event Wrapper 코드
 
 ​```java
+
 public class Event<T> {
 
     private final T content;
@@ -34,11 +35,13 @@ public class Event<T> {
         return content;
     }
 }
+
 ​```
 
 ##Event Observer 코드
 
 ​```java
+
 public class EventObserver<T> implements Observer<Event<? extends T>> {
 
     public interface EventUnhandledContent<T> {
@@ -61,4 +64,5 @@ public class EventObserver<T> implements Observer<Event<? extends T>> {
         }
     }
 }
+
 ​```
