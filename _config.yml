@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "dark"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR"
+title                    : "안드로이드 앱을 개발하면서 고민했던 내용들과 생각해 본 내용을 정리한 글입니다."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Cidd97"
 description              : "An amazing website."
 url                      : "https://cidd97.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
